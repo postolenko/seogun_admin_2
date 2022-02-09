@@ -30,6 +30,13 @@ $(document).ready(function() {
       activeVal = parent.find(".active_val");
       parent.find(".hide_val").val($(this).html());
       activeVal.html($(this).html());
+      parent.removeClass("active");
+      parent.find(".val").removeClass("hidden");
+      parent.find(".val").each(function() {
+        if($(this).text() == parent.find(".active_val").text()) {
+          $(this).addClass("hidden");
+        }
+      });
     });
 
     $(this).keydown(function(eventObject){
