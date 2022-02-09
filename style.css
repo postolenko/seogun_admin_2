@@ -1893,6 +1893,99 @@ p.heavy {
 
 /*-- /Section 1 - Settings Page 2 --*/
 
+/*-- Section 1 - Chat Page --*/
+
+.chat_form_wrapp {
+    max-width: 505px;
+    margin: 30px auto;
+}
+
+.chat_title_wrapp {
+    padding: 20px 0;
+}
+
+.chat_box {
+    display: flex;
+    display: -webkit-flex;
+    align-items: flex-end;
+    -webkit-align-items: flex-end;
+    max-height: 520px;
+    overflow: hidden;
+}
+
+.chat_message {
+    background-color: #eef7ff;
+    margin: 20px 0;
+    padding: 21px 30px 12px 30px;
+}
+
+.admin_message {
+    background-color: #ffe6e6;
+}
+
+.chat_message p {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgb(0, 0, 0);
+}
+
+p.message_time {
+    padding: 12px 0 0 0;
+    text-align: right;
+    font-weight: normal;
+}
+
+.chat_day {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 900;
+}
+
+.chat_textarea textarea {
+    display: block;
+    width: 100%;
+    height: 120px;
+    padding: 20px 25px 20px 25px;
+    border: 1px solid #d9d9d9;
+    background-color: #f5f5f5;
+    font-family: 'Gilroy';
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: normal;
+    color: #000;
+}
+
+.chat_textarea textarea::placeholder {
+    color: #8d8d8d;
+}
+
+.buttons_wrapp {
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    -webkit-justify-content: center;
+    padding: 20px 0 10px 0;
+}
+
+.buttons_wrapp > div {
+    padding: 5px;
+}
+
+.chat_pill {
+    min-width: 157px;
+    min-height: 45px;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 21px;
+    color: #fff;
+}
+
+/*-- /Section 1 - Chat Page --*/
+
 /*-------------------------------------------*/
 /* ----- FOOTER ------ */
 /*-------------------------------------------*/
@@ -2029,90 +2122,6 @@ body.fixed {
     top: 14px;
     right: 14px;
     z-index: 2;
-}
-
-.chat_title_wrapp {
-    padding: 20px 0;
-}
-
-.chat_box {
-    display: flex;
-    display: -webkit-flex;
-    align-items: flex-end;
-    -webkit-align-items: flex-end;
-    max-height: 520px;
-    overflow: hidden;
-}
-
-.chat_message {
-    background-color: #eef7ff;
-    margin: 20px 0;
-    padding: 21px 30px 12px 30px;
-}
-
-.admin_message {
-    background-color: #ffe6e6;
-}
-
-.chat_message p {
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 20px;
-    color: rgb(0, 0, 0);
-}
-
-p.message_time {
-    padding: 12px 0 0 0;
-    text-align: right;
-    font-weight: normal;
-}
-
-.chat_day {
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 15px;
-    line-height: 20px;
-    font-weight: 900;
-}
-
-.chat_textarea textarea {
-    display: block;
-    width: 100%;
-    height: 120px;
-    padding: 20px 25px 20px 25px;
-    border: 1px solid #d9d9d9;
-    background-color: #f5f5f5;
-    font-family: 'Gilroy';
-    font-size: 16px;
-    line-height: 22px;
-    font-weight: normal;
-    color: #000;
-}
-
-.chat_textarea textarea::placeholder {
-    color: #8d8d8d;
-}
-
-.buttons_wrapp {
-    display: flex;
-    display: -webkit-flex;
-    justify-content: center;
-    -webkit-justify-content: center;
-    padding: 20px 0 10px 0;
-}
-
-.buttons_wrapp > div {
-    padding: 5px;
-}
-
-.chat_pill {
-    min-width: 157px;
-    min-height: 45px;
-    text-transform: uppercase;
-    font-weight: 900;
-    font-size: 16px;
-    line-height: 21px;
-    color: #fff;
 }
 
 @media only screen and (max-width: 1930px) {
